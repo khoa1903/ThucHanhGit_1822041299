@@ -23,7 +23,6 @@ body {
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    animation: fadeIn 0.8s ease-in-out;
 }
 
 header {
@@ -78,15 +77,4 @@ footer {
     font-size: 0.9rem;
     color: #64748b;
     border-top: 1px solid #e2e8f0;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(15px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
